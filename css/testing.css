@@ -1,0 +1,110 @@
+
+#logo{
+    height: 60px;
+}
+li{
+    padding: 10px;
+    align-self: center;
+
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+nav{
+    background-color:rgba(13, 140, 203, 0.8);
+}
+
+a{
+    text-decoration:none;
+    font-size: larger;
+    color: white;
+}
+i{
+    color: #ffffff;
+}
+#app{
+    color:rgba(13, 140, 203, 0.8);
+}
+#bg_image{
+    background:linear-gradient(rgba(13, 140, 203, 0.8), rgba(13, 140, 203, 0.527)),
+          url('../images/lambton.jpg');
+          background-repeat: no-repeat;
+          object-fit: contain;
+          height:1000px;
+      }
+
+#trans{
+    opacity: 0%;
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+#headingg{
+    padding-top: 170px;
+    padding-bottom: 200px;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    opacity: 0.4;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    gap:50px;
+
+}
+.b1{
+    border-radius: 8%;
+}
+.g{
+    position:absolute;
+    bottom:-50px;
+}
+.tc{
+    color:#fff;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightblue;
+    padding:50px;
+}
+.g1{
+    width:227px;
+    height: 62px;
+}
+.gg{
+    font-weight: 700;
+    font-size:38px;
+    color:#fff;
+    margin-left:50px;
+    margin-top:50px;
+    }
+ul{
+    list-style: none;
+}
+li{
+    padding:5px;
+}
+.u{
+    padding:5px;
+    color:darkblue;
+}
+.u:hover{
+    color:black;
+    transition: 0.4s;
+}
+
+.padding1{
+   margin-top:15px;
+}
